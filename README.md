@@ -1,5 +1,3 @@
-# FitPulse-Personal-Gym
-FitPulse is a responsive web application featuring a clean HTML structure (index.html), custom styling via style.css and Bootstrap, and interactive logic powered by custom JavaScript and Bootstrap bundle scripts.
 ⚡ FitPulse — Fitness & Health Web Application
 
   FitPulse is a modern, responsive front-end web application built to help users track their fitness journey, explore workout routines, and stay motivated toward their health and wellness goals.
