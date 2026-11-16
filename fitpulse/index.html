@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPulse | Personal Training</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Fit<span>Pulse</span></div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+        <nav id="mainNav">
+            <a href="#hero">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <h1>Transform Your Body With <span>Alex Vance</span></h1>
+        <p>Certified Personal Trainer helping you push past your limits, build muscle, and crush your fitness goals.</p>
+        <a href="#contact" class="btn">Start Training Today</a>
+    </section>
+
+    <!-- PRICES SECTION -->
+    <section id="pricing">
+        <h2 class="section-title">Training <span>Packages</span></h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="price-card h-100">
+                    <h3>Starter Plan</h3>
+                    <div class="price">$99<span>/mo</span></div>
+                    <ul>
+                        <li>Custom Workout Routine</li>
+                        <li>Basic Nutrition Guide</li>
+                        <li>Bi-weekly Check-ins</li>
+                    </ul>
+                    <a href="#contact" class="btn">Choose Plan</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="price-card featured h-100">
+                    <h3>Pro Coach</h3>
+                    <div class="price">$199<span>/mo</span></div>
+                    <ul>
+                        <li>1-on-1 Personal Training (4x/mo)</li>
+                        <li>Advanced Meal Planning</li>
+                        <li>Weekly Check-ins &amp; Adjustments</li>
+                        <li>24/7 WhatsApp Support</li>
+                    </ul>
+                    <a href="#contact" class="btn">Choose Plan</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="price-card h-100">
+                    <h3>Elite Transformation</h3>
+                    <div class="price">$349<span>/mo</span></div>
+                    <ul>
+                        <li>Unlimited 1-on-1 Training</li>
+                        <li>Custom Macros &amp; Calorie Tracking</li>
+                        <li>Daily Accountability Checks</li>
+                        <li>Supplement Strategy</li>
+                    </ul>
+                    <a href="#contact" class="btn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews">
+        <h2 class="section-title">Client <span>Reviews</span></h2>
+
+        <!-- Display Container for Reviews -->
+        <div class="row g-4 mb-5" id="reviewsContainer">
+            <div class="col-12 col-md-6">
+                <div class="review-card">
+                    <h4>Sarah Jenkins</h4>
+                    <p>"Alex completely changed my approach to fitness. Down 15lbs and feeling stronger than ever!"</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="review-card">
+                    <h4>Michael Chang</h4>
+                    <p>"The best trainer I've worked with. The custom meal plans and structured workouts make all the difference."</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Review Form -->
+        <div class="review-form">
+            <h3>Leave Your Review</h3>
+            <form id="addReviewForm">
+                <div class="form-group">
+                    <label for="reviewerName">Your Name</label>
+                    <input type="text" id="reviewerName" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="reviewerText">Your Opinion / Review</label>
+                    <textarea id="reviewerText" required placeholder="Share your experience..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Post Review</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="userEmail">Your Email</label>
+                    <input type="email" id="userEmail" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="userSubject">Subject</label>
+                    <input type="text" id="userSubject" required placeholder="Personal Training Inquiry">
+                </div>
+                <div class="form-group">
+                    <label for="userMessage">Message</label>
+                    <textarea id="userMessage" required placeholder="Tell me about your goals..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send Email to Trainer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; <span id="year">2025</span> FitPulse Training. All rights reserved.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
